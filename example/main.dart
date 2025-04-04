@@ -1,4 +1,4 @@
-import 'package:app_info_smar_unit/screens/app_info_screen.dart';
+import 'package:app_info_smart_unit/screens/app_info_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

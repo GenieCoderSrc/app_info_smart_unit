@@ -1,4 +1,4 @@
-import 'package:app_info_smar_unit/constants/app_info_img_path_const.dart';
+import 'package:app_info_smart_unit/constants/app_info_img_path_const.dart';
 import 'package:flutter/material.dart';
 
 class AppLogo extends StatelessWidget {

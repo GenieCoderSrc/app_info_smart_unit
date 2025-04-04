@@ -1,4 +1,4 @@
-import 'package:app_info_smar_unit/constants/app_info_txt_const.dart';
+import 'package:app_info_smart_unit/constants/app_info_txt_const.dart';
 import 'package:app_style/app_style.dart';
 import 'package:flutter/material.dart';
 import 'package:app_style/app_style.dart';

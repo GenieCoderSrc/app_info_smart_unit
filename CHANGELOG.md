@@ -2,6 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.3
+- Initial release of `app_info_smar_unit` package.
+
 ## 0.0.2
 ### Added
 - `AppInfoScreen` widget to display app information.
@@ -18,3 +21,4 @@ All notable changes to this project will be documented in this file.
 
 ## 0.0.1
 - Initial release of `app_info_smar_unit` package.
+

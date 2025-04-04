@@ -1,8 +1,8 @@
-import 'package:app_info_smar_unit/constants/app_info_txt_const.dart';
-import 'package:app_info_smar_unit/widgets/app_version.dart';
-import 'package:app_info_smar_unit/widgets/description_view.dart';
-import 'package:app_info_smar_unit/widgets/email_view.dart';
-import 'package:app_info_smar_unit/widgets/muted_text.dart';
+import 'package:app_info_smart_unit/constants/app_info_txt_const.dart';
+import 'package:app_info_smart_unit/widgets/app_version.dart';
+import 'package:app_info_smart_unit/widgets/description_view.dart';
+import 'package:app_info_smart_unit/widgets/email_view.dart';
+import 'package:app_info_smart_unit/widgets/muted_text.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/app_logo.dart';
