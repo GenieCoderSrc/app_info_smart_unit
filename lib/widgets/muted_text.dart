@@ -1,22 +1,42 @@
-import 'package:app_style/media_query_size.dart';
 import 'package:flutter/material.dart';
-import 'package:app_style/app_style.dart';
 
 class MutedText extends StatelessWidget {
-  const MutedText({super.key, required this.title, this.fontSize});
+  const MutedText({
+    super.key,
+    required this.title,
+    this.fontSize,
+    this.textAlign = TextAlign.center,
+    this.textStyle,
+  });
 
+  /// The text to display.
   final String title;
+
+  /// Optional font size override.
   final double? fontSize;
+
+  /// Optional text alignment (default is center).
+  final TextAlign textAlign;
+
+  /// Optional custom text style override.
+  final TextStyle? textStyle;
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuerySize.getHeight(context);
+    final height = MediaQuery.of(context).size.height;
+
     return Padding(
       padding: EdgeInsets.only(top: 5, bottom: height * 0.04),
-      child: Text(title,
-          textAlign: TextAlign.center,
-          // style: GoogleUbuntuFontsTextStyles.fontsBoldGrey
-          style: AppTxtStyles.kTitle24.copyWith(fontSize: fontSize)),
+      child: Text(
+        title,
+        textAlign: textAlign,
+        style: textStyle ??
+            Theme.of(context).textTheme.titleMedium?.copyWith(
+              fontSize: fontSize,
+              color: Colors.grey[600],
+              fontWeight: FontWeight.bold,
+            ),
+      ),
     );
   }
 }

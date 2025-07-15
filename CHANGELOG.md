@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.4
+### July 15, 2025
+### Removed
+- Removed app_style dependency.
+
 ## 0.0.3
 - Initial release of `app_info_smar_unit` package.
 

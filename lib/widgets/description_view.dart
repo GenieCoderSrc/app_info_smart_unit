@@ -1,22 +1,32 @@
-import 'package:app_style/app_style.dart';
 import 'package:flutter/material.dart';
 
 class DescriptionView extends StatelessWidget {
-  const DescriptionView(
-      {super.key, required this.desc, this.textAlign = TextAlign.center});
+  const DescriptionView({
+    super.key,
+    required this.desc,
+    this.textAlign,
+    this.textStyle,
+  });
 
   final String desc;
   final TextAlign? textAlign;
+  final TextStyle? textStyle;
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuerySize.getHeight(context);
+    final height = MediaQuery.sizeOf(context).height;
+
     return Padding(
-      padding: EdgeInsets.only(top: height * 0.02, bottom: height * 0.02),
-      child: Text(desc,
-          // style: GoogleUbuntuFontsTextStyles.fontsGrey16,
-          style: AppTxtStyles.fontsGrey16,
-          textAlign: textAlign),
+      padding: EdgeInsets.symmetric(vertical: height * 0.02),
+      child: Text(
+        desc,
+        textAlign: textAlign ?? TextAlign.center,
+        style: textStyle ??
+            Theme.of(context).textTheme.bodyMedium?.copyWith(
+              color: Colors.grey[700],
+              fontSize: 16,
+            ),
+      ),
     );
   }
 }
