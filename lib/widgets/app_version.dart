@@ -25,16 +25,10 @@ class AppVersion extends StatelessWidget {
         final style = textStyle ?? defaultStyle;
 
         if (snapshot.hasError) {
-          return Text(
-            AppInfoTxtConst.version,
-            style: style,
-          );
+          return Text(AppInfoTxtConst.version, style: style);
         }
 
-        return Text(
-          'App Version: ${snapshot.data ?? 'Unknown'}',
-          style: style,
-        );
+        return Text('App Version: ${snapshot.data ?? 'Unknown'}', style: style);
       },
     );
   }

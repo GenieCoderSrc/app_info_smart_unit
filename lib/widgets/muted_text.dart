@@ -30,7 +30,8 @@ class MutedText extends StatelessWidget {
       child: Text(
         title,
         textAlign: textAlign,
-        style: textStyle ??
+        style:
+            textStyle ??
             Theme.of(context).textTheme.titleMedium?.copyWith(
               fontSize: fontSize,
               color: Colors.grey[600],

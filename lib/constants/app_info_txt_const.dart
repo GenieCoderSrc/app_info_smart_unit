@@ -3,7 +3,6 @@ import 'package:package_info_plus/package_info_plus.dart';
 class AppInfoTxtConst {
   static String version = '1.0.0';
 
-
   static String copyrightAllRightReserved =
       'Copyright Ⓒ $appName $currentYear -All Right Reserved';
 

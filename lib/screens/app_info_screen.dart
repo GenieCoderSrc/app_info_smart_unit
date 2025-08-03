@@ -8,13 +8,14 @@ import 'package:flutter/material.dart';
 import '../widgets/app_logo.dart';
 
 class AppInfoScreen extends StatelessWidget {
-  const AppInfoScreen(
-      {super.key,
-        required this.screenTitle,
-        this.email,
-        this.logoPath,
-        required this.descriptionList,
-        this.textAlign = TextAlign.left});
+  const AppInfoScreen({
+    super.key,
+    required this.screenTitle,
+    this.email,
+    this.logoPath,
+    required this.descriptionList,
+    this.textAlign = TextAlign.left,
+  });
 
   final String screenTitle;
   final String? logoPath;

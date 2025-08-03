@@ -26,7 +26,8 @@ class EmailView extends StatelessWidget {
       child: Text(
         email ?? AppInfoTxtConst.developerEmail,
         textAlign: textAlign,
-        style: textStyle ??
+        style:
+            textStyle ??
             theme.textTheme.titleMedium?.copyWith(
               decoration: TextDecoration.underline,
             ),

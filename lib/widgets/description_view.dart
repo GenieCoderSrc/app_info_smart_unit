@@ -21,7 +21,8 @@ class DescriptionView extends StatelessWidget {
       child: Text(
         desc,
         textAlign: textAlign ?? TextAlign.center,
-        style: textStyle ??
+        style:
+            textStyle ??
             Theme.of(context).textTheme.bodyMedium?.copyWith(
               color: Colors.grey[700],
               fontSize: 16,
