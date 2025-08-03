@@ -7,19 +7,19 @@ issue_tracker: https://github.com/GenieCoderSrc/app_info_smart_unit/issues
 
 
 environment:
-  sdk: ^3.7.2
+  sdk: ^3.8.1
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  package_info_plus: ^8.1.4
+  package_info_plus: ^8.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
