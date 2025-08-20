@@ -2,16 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.5
+
+### Aug 22, 2025
+
+### ✨ Updated
+
+- Updated package_info_plus to 8.3.1
+- Updated Dart sdk to 3.9.0
+- Removed `flutter_lints` Dependency
+
 ## 0.0.4
+
 ### July 15, 2025
+
 ### Removed
+
 - Removed app_style dependency.
 
 ## 0.0.3
+
 - Initial release of `app_info_smar_unit` package.
 
 ## 0.0.2
+
 ### Added
+
 - `AppInfoScreen` widget to display app information.
 - `AppLogo` widget to display app logo.
 - `AppVersion` widget to fetch and show app version dynamically.
@@ -20,10 +36,12 @@ All notable changes to this project will be documented in this file.
 - `MutedText` to show copyright info.
 
 ### Dependencies
+
 - Integrated with `package_info_plus` to get app info.
 
 ---
 
 ## 0.0.1
+
 - Initial release of `app_info_smar_unit` package.
 
