@@ -1,6 +1,6 @@
 name: app_info_smart_unit
 description: '`app_info_smart_unit` is a Flutter package that simplifies displaying app-related information like version, logo, developer details, and more through customizable widgets.'
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/GenieCoderSrc/app_info_smart_unit
 repository: https://github.com/GenieCoderSrc/app_info_smart_unit
 issue_tracker: https://github.com/GenieCoderSrc/app_info_smart_unit/issues
@@ -14,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  package_info_plus: ^8.3.1
+  package_info_plus: ^10.1.0
 
 dev_dependencies:
   flutter_test:
