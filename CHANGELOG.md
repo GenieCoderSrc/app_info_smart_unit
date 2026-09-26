@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.7
+
+### Sep 26, 2026
+
+### ✨ Updated
+
+- Updated `package_info_plus: ^10.2.0`
+
 ## 0.0.6
 
 ### Jun 15, 2026
